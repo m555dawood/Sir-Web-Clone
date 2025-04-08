@@ -1,82 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="tailwind.css" />
-    <title>edu2skill | Abo Bakar</title>
-    <link rel="icon" href="../images/all.png" />
-  </head>
-  <body>
-    <header class="text-center py-0 bg-teal-100 bg-amber-50">
-      <h1 class="text-4xl font-bold text-gray-800">
-        <a href="index.html">edu<span style="color: #979a9a">2</span>skill</a>
-      </h1>
-      <p class="text-lg">Abo Bakar</p>
-      <p class="text-sm">
-        <img src="../images/1.png" class="w-5 h-5 inline" /> +92-313-5369068
-      </p>
-      <p class="text-sm pb-1">✉️ muhammad.abobakar@uog.edu.pk</p>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>edu2skill | Abo Bakar</title>
+  <link rel="icon" href="../images/all.png" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fdfdfd;
+    }
 
-    <nav class="bg-black text-white p-2">
-      <ul class="flex justify-start text-sm">
-        <li>
-          <a
-            href="courses.html"
-            class="hover:bg-gray-400 hover:text-white px-4 py-2 rounded transition duration-300"
-            >Courses</a
-          >
-        </li>
-        <li>
-          <a
-            href="../Pages/project.html"
-            class="hover:bg-gray-400 hover:text-white px-4 py-2 rounded transition duration-300"
-            >Projects</a
-          >
-        </li>
-        <li>
-          <a
-            href="../Pages/c+a.html"
-            class="hover:bg-gray-400 hover:text-white px-4 py-2 rounded transition duration-300"
-            >Contact</a
-          >
-        </li>
-        <li>
-          <a
-            href="../Pages/c+a.html"
-            class="hover:bg-gray-400 hover:text-white px-4 py-2 rounded transition duration-300"
-            >About</a
-          >
-        </li>
-      </ul>
-    </nav>
+    /* Header */
+    header {
+      text-align: center;
+      background-color: #fff8dc;
+      padding: 1rem 0 0.5rem;
+    }
 
-    <section class="bg-teal-100 bg-amber-50 py-40">
-      <div style="text-align: center">
-        <h1 class="text-6xl mt-8 font-bold" style="color: gray">
-          M Abo Bakar Aslam
-        </h1>
-        <p class="text-3xl font-normal mt-6">
-          <img
-            src="../images/1.png"
-            alt=""
-            style="display: inline-block; vertical-align: middle"
-          />
-          <span style="vertical-align: middle">+92-3135369068</span>
-        </p>
-        <p class="text-3xl font-normal mt-6" style="color: gray">
-          muhammad.abobakar@uog.edu.pk
-        </p>
-      </div>
-    </section>
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #333;
+      margin: 0;
+    }
 
-    <footer class="text-center text-white bg-black py-2">
-      <p class="text-lg hover:underline"><a href="#">© Abo Bakar</a></p>
-      <p class="text-sm mt-2">
-        <img src="../images/1.png" class="w-5 h-5 inline" /> +92-313-5369068
-      </p>
-      <p class="text-sm pb-1">✉️ muhammad.abobakar@uog.edu.pk</p>
-    </footer>
-  </body>
+    header h1 a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    header span {
+      color: #979a9a;
+    }
+
+    header p {
+      margin: 5px 0;
+      font-size: 1rem;
+      color: #555;
+    }
+
+    header img {
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
+    }
+
+    /* Navigation */
+    nav {
+      background-color: #000;
+      padding: 0.5rem 1rem;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      margin-right: 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+      display: inline-block;
+    }
+
+    nav a:hover {
+      background-color: #999;
+      color: white;
+    }
+
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 8rem 1rem;
+      background: linear-gradient(to right, #e6fffa, #fff3cd);
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      color: gray;
+      margin-top: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.5rem;
+      margin-top: 1.5rem;
+      color: #444;
+    }
+
+    .hero img {
+      width: 24px;
+      height: 24px;
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      background-color: #000;
+      color: white;
+      padding: 1rem 0;
+    }
+
+    footer p {
+      margin: 0.5rem 0;
+      font-size: 0.95rem;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    footer img {
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
+      margin-right: 6px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav li {
+        margin-bottom: 0.5rem;
+      }
+
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .hero p {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1><a href="index.html">edu<span>2</span>skill</a></h1>
+    <p>Abo Bakar</p>
+    <p><img src="../images/1.png" alt="Phone" /> +92-313-5369068</p>
+    <p>✉️ muhammad.abobakar@uog.edu.pk</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="../Pages/project.html">Projects</a></li>
+      <li><a href="../Pages/c+a.html">Contact</a></li>
+      <li><a href="../Pages/c+a.html">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>M Abo Bakar Aslam</h1>
+    <p>
+      <img src="../images/1.png" alt="Phone" />
+      +92-3135369068
+    </p>
+    <p>✉️ muhammad.abobakar@uog.edu.pk</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p><a href="#">© Abo Bakar</a></p>
+    <p><img src="../images/1.png" alt="Phone" /> +92-313-5369068</p>
+    <p>✉️ muhammad.abobakar@uog.edu.pk</p>
+  </footer>
+
+</body>
 </html>
