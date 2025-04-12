@@ -5,212 +5,248 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="tailwind.css" />
     <title>edu2skill | Abo Bakar</title>
-    <link rel="icon" href="../images/all.png" />
-    <script>
-      function toggleDescription(button) {
-        const card = button.closest('.course-card');
-        const shortDescription = card.querySelector('.short-description');
-        const fullDescription = card.querySelector('.full-description');
-
-        shortDescription.classList.toggle('hidden');
-        fullDescription.classList.toggle('hidden');
-
-        if (button.textContent === 'Read More') {
-          button.textContent = 'Read Less';
-        } else {
-          button.textContent = 'Read More';
-        }
-      }
-    </script>
+    <link rel="icon" href="../images/logo.png " />
   </head>
   <body>
-    <header class="text-center py-0 bg-teal-100 bg-amber-50">
-      <h1 class="text-4xl font-bold text-gray-800">
-        <a href="index.html">edu<span style="color:#979a9a">2</span>skill</a>
-      </h1>
-      <p class="text-lg">Abo Bakar</p>
-      <p class="text-sm">
-        <img src="../images/1.png" class="w-5 h-5 inline" /> +92-313-5369068
-      </p>
-      <p class="text-sm pb-1">✉️ muhammad.abobakar@uog.edu.pk</p>
-    </header>
 
-    <nav class="bg-black text-white p-2">
-      <ul class="flex justify-start text-sm">
-        <li>
-          <a
-            href="courses.html"
-            class="hover:bg-gray-400 hover:text-white px-4 py-2 rounded transition duration-300"
-            >Courses</a
-          >
-        </li>
-        <li>
-          <a
-            href="../Pages/project.html"
-            class="hover:bg-gray-400 hover:text-white px-4 py-2 rounded transition duration-300"
-            >Projects</a
-          >
-        </li>
-        <li>
-          <a
-            href="../Pages/c+a.html"
-            class="hover:bg-gray-400 hover:text-white px-4 py-2 rounded transition duration-300"
-            >Contact</a
-          >
-        </li>
-        <li>
-          <a
-            href="../Pages/c+a.html"
-            class="hover:bg-gray-400 hover:text-white px-4 py-2 rounded transition duration-300"
-            >About</a
-          >
-        </li>
-      </ul>
+    <nav class=" h-12 bg-gray-900 flex items-center justify-between px-4">
+      <a
+        href="index.html"
+        class="text-teal-100 text-amber-50 text-lg font-semibold hover:text-gray-800"
+        >edu2skill</a
+      >
+      <a
+        href="courses.html"
+        class="text-teal-100 text-amber-50 text-lg font-semibold hover:text-gray-800"
+        >Courses</a
+      >
     </nav>
 
-    <section class="text-center py-40 bg-teal-100 bg-amber-50">
-      <h2 class="text-3xl font-semibold">Welcome to Learning Platform</h2>
-      <p class="text-lg mt-4">
-        Let's grow your knowledge and get skills by M Abo Bakar Aslam
-      </p>
-      <button
-        class="mt-6 px-6 py-2 bg-gray-700 text-white rounded-lg hover:bg-gray-900"
+    <section style="background-color: #dff5e1" class="py-8">
+      <h1
+        class="text-5xl font-bold text-gray-800 font-serif flex justify-center"
       >
-        View Detail
+        Empowering your Career through
+      </h1>
+      <h1
+        class="text-5xl font-bold text-gray-800 font-serif flex justify-center"
+      >
+        skill Development
+      </h1>
+
+      <div
+        style="background-color: #dff5e1"
+        class="flex justify-between items-center mt-4 px-40"
+      >
+        <div>
+          <img src="../images/edu.png" style="height: 50px" />
+        </div>
+        <div class="flex items-center">
+          <a href="https://github.com/" class="mr-4">
+            <img
+              src="../images/git-removebg-preview.png"
+              style="height: 30px"
+            />
+          </a>
+          <a href="https://www.youtube.com/" class="mr-4">
+            <img
+              src="../images/youtube-removebg-preview.png"
+              style="height: 35px"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section
+      style="
+        background-image: url('../images/poster.png');
+        background-size: cover;
+        background-attachment: fixed ;
+        width: 100%;
+        height: 90vh;
+        background-color: rgba(0, 0, 0, 0.6);
+        background-blend-mode: multiply;
+      "
+      class="bg-transparent justify-center items-center text-center py-24"
+    >
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-0">
+        Your Gateway to IT &
+      </h1>
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-8">
+        Programming Mastery
+      </h1>
+
+      <p class="text-lg text-white leading-relaxed mb-8 px-56">
+        Are you ready to enhance your IT and programming skills? At edu2skill,
+        we offer comprehensive tutorials to help you learn and grow. Whether
+        you’re a beginner or an experienced developer, our tutorials provide
+        step-by-step guidance to make learning easy and efficient.
+      </p>
+
+      <button
+        style="border: 2px solid white"
+        class="bg-black text-indigo-600 font-semibold py-3 px-6 rounded hover:bg-indigo-100"
+      >
+      <a href="courses.html">Start Learning</a>
+        
+      </button> 
+    </section>
+
+    <section style="background-color: #dff5e1" class="py-40">
+      <h1 class="ml-40 text-4xl font-bold text-gray-800 mb-0">
+        Easy-to-Follow Tutorials
+      </h1>
+      <div class="flex items-center ml-40 mr-40">
+        <div class="w-1/2 pr-8">
+          <p class="text-lg text-gray-700 leading-relaxed mb-8">
+            Our Tutorials are designed to simplify learning, making complex
+            topics approachable for beginners and professionals alike. With
+            step-by-step explanations, clear examples, and practical exercises,
+            you’ll quickly grasp key concepts. Whether you’re coding for the
+            first time or refining your skills, our structured lessons ensure a
+            smooth and enjoyable learning experience. Follow edu2skill
+          </p>
+          <button
+            style="border: 2px solid white"
+            class="bg-black text-white font-semibold py-3 px-6 rounded hover:bg-indigo-600"
+          >
+          <a href="courses.html">Start Learning</a>
+            
+          </button>
+        </div>
+        <img
+          src="../images/1l.png"
+          style="width: 50%; height: auto"
+          class="rounded-lg shadow-md"
+        />
+      </div>
+
+      <h1
+        style="margin-left: 760px"
+        class="text-4xl font-bold text-gray-800 mb-8 mt-56"
+      >
+        Project-Based Learning
+      </h1>
+      <div class="flex items-center ml-40 mr-40">
+        <img
+          src="../images/2l.png"
+          style="width: 50%; height: auto"
+          class="rounded-lg shadow-md"
+        />
+        <div class="w-1/2 pr-8">
+          <p class="text-lg text-gray-700 leading-relaxed mb-8 ml-20">
+            Our Tutorials are designed to simplify learning, making complex
+            topics approachable for beginners and professionals alike. With
+            step-by-step explanations, clear examples, and practical exercises,
+            you’ll quickly grasp key concepts. Whether you’re coding for the
+            first time or refining your skills, our structured lessons ensure a
+            smooth and enjoyable learning experience. Follow edu2skill
+          </p>
+
+          <button
+            style="border: 2px solid white"
+            class="bg-black text-white font-semibold py-3 px-6 rounded hover:bg-indigo-600 ml-20"
+          >
+          <a href="c+a.html">Start Learning</a>
+            
+          </button>
+        </div>
+      </div>
+
+      <h1 class="ml-40 text-4xl font-bold text-gray-800 mb-0 mt-56">
+        Ideas for more Projects to
+      </h1>
+      <h1 class="ml-40 text-4xl font-bold text-gray-800 mb-0">
+        Sharpen Your Skills
+      </h1>
+      <div class="flex items-center ml-40 mr-40">
+        <div class="w-1/2 pr-8">
+          <p class="text-lg text-gray-700 leading-relaxed mb-8">
+            Explore Project-Ideas that will help you apply your knowledge to
+            real-world scenarios, enhancing your problem-solving and development
+            skills. From beginner-friendly applications to advanced software
+            solutions, these projects challenge you to think critically and code
+            efficiently. Build, experiment, and refine your expertise while
+            creating something meaningful for your portfolio. Follow edu2skill
+          </p>
+          <button
+            style="border: 2px solid white"
+            class="bg-black text-white font-semibold py-3 px-6 rounded hover:bg-indigo-600"
+          >
+            <a href="c+a.html">Explore More</a>
+          </button>
+        </div>
+        <img
+          src="../images/3l.png"
+          style="width: 50%; height: auto"
+          class="rounded-lg shadow-md"
+        />
+      </div>
+    </section>
+
+    <section class="bg-gray-900 py-20 justify-center text-white font-semibold">
+      <h4 class="text-center font-serif text-2xl">Writer</h4>
+      <h1 class="text-center font-serif text-5xl">Abo Bakar</h1>
+      <div class="flex items-center justify-center">
+        <a href="YOUR_GITHUB_LINK" class="mr-4">
+          <img src="../images/git-removebg-preview.png" style="height: 30px" />
+        </a>
+        <a href="https://www.youtube.com/" class="mr-4">
+          <img
+            src="../images/youtube-removebg-preview.png"
+            style="height: 35px"
+          />
+        </a>
+      </div>
+      <button
+        style="
+          border: 2px solid white;
+          margin-left: 300px;
+          margin-top: 20px;
+          width: 700px;
+        "
+        class="bg-black text-white justify-center font-semibold py-3 px-6 rounded hover:bg-indigo-600 ml-20"
+      >
+        <a href="c+a.html">View Profile</a>
       </button>
     </section>
 
-    <section class="py-12 bg-gray-200 ">
-      <h1 class="text-3xl font-semibold text-center mb-8">Our Courses</h1>
-      <div class="container mx-auto px-0">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div class="bg-white shadow-lg rounded-lg p-6 text-center course-card">
-            <h3 class="text-xl font-semibold text-gray-800">Web Development</h3>
-            <p class="text-gray-600 mt-2 short-description">
-              Master the art of building dynamic and engaging websites.
-              <span class="read-more-trigger" style="cursor: pointer; color: blue;"></span>
-            </p>
-            <p class="text-gray-600 mt-2 full-description hidden">
-              Master the art of building dynamic and engaging websites. Dive
-              into the core technologies of HTML, CSS, and JavaScript, and
-              explore popular frameworks to create responsive and user-friendly
-              web applications that stand out in the digital landscape.
-              <button onclick="toggleDescription(this)" class="mt-2 px-4 py-2 bg-gray-300 text-gray-700 rounded-md hover:bg-gray-400 transition duration-200">Read Less</button>
-            </p>
-            <button onclick="toggleDescription(this)" class="mt-2 px-4 py-2 bg-gray-700 text-white rounded-md hover:bg-gray-900 transition duration-200">Read More</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="container mx-auto px-0 mt-2">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div class="bg-white shadow-lg rounded-lg p-6 text-center course-card">
-            <h3 class="text-xl font-semibold text-gray-800">
-              Machine Learning
-            </h3>
-            <p class="text-gray-600 mt-2 short-description">
-              Step into the fascinating world of artificial intelligence.
-              <span class="read-more-trigger" style="cursor: pointer; color: blue;"></span>
-            </p>
-            <p class="text-gray-600 mt-2 full-description hidden">
-              Step into the fascinating world of artificial intelligence.
-              Discover the fundamental concepts and algorithms behind machine
-              learning, enabling computers to learn from data. Explore
-              techniques for building predictive models, analyzing patterns, and
-              developing intelligent solutions for real-world problems.
-              <button onclick="toggleDescription(this)" class="mt-2 px-4 py-2 bg-gray-300 text-gray-700 rounded-md hover:bg-gray-400 transition duration-200">Read Less</button>
-            </p>
-            <button onclick="toggleDescription(this)" class="mt-2 px-4 py-2 bg-gray-700 text-white rounded-md hover:bg-gray-900 transition duration-200">Read More</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="container mx-auto px-0 mt-2">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div class="bg-white shadow-lg rounded-lg p-6 text-center course-card">
-            <h3 class="text-xl font-semibold text-gray-800">App Development</h3>
-            <p class="text-gray-600 mt-2 short-description">
-              Unlock the potential of mobile technology by learning to build
-              native and cross-platform applications.
-              <span class="read-more-trigger" style="cursor: pointer; color: blue;"></span>
-            </p>
-            <p class="text-gray-600 mt-2 full-description hidden">
-              Unlock the potential of mobile technology by learning to build
-              native and cross-platform applications. From understanding user
-              interface design to mastering programming languages and
-              frameworks, you'll gain the skills to create innovative and
-              functional apps for various platforms .
-              <button onclick="toggleDescription(this)" class="mt-2 px-4 py-2 bg-gray-300 text-gray-700 rounded-md hover:bg-gray-400 transition duration-200">Read Less</button>
-            </p>
-            <button onclick="toggleDescription(this)" class="mt-2 px-4 py-2 bg-gray-700 text-white rounded-md hover:bg-gray-900 transition duration-200">Read More</button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="py-12 bg-gray-300">
-      <h1 class="text-4xl text-center font-bold text-black mb-8">My Skills</h1>
-
-      <div class="container mx-auto px-4">
-        <div class="flex flex-col md:flex-row justify-center mb-8">
-          <div
-            class="bg-white shadow-lg rounded-lg p-6 text-center md:w-[45%] w-full min-h-[300px] md:mr-4 flex flex-col items-center"
-          >
-            <h3
-              class="text-xl font-semibold text-gray-800 mb-4 flex items-center gap-2"
-            >
-              Html + Css
-            </h3>
-            <div class="flex gap-4 justify-center">
-              <img src="../images/html.png" alt="HTML" class="w-32 h-32" />
-              <img src="../images/css.png" alt="CSS" class="w-32 h-32" />
-            </div>
-          </div>
-
-          <div
-            class="bg-white shadow-lg rounded-lg p-6 text-center md:w-[45%] w-full min-h-[300px] md:ml-4 flex flex-col items-center"
-          >
-            <h3 class="text-xl font-semibold text-gray-800 mb-4">JavaScript</h3>
-            <img
-              src="../images/js.png"
-              alt="JavaScript"
-              class="w-32 h-32 mt-auto"
-            />
-          </div>
-        </div>
-
-        <div class="flex flex-col md:flex-row justify-center mb-8">
-          <div
-            class="bg-white shadow-lg rounded-lg p-6 text-center md:w-[45%] w-full min-h-[300px] md:mr-4 flex flex-col items-center"
-          >
-            <h3 class="text-xl font-semibold text-gray-800 mb-4">Bootstrap</h3>
-            <img
-              src="../images/bootstrap.jpeg"
-              alt="Bootstrap"
-              class="w-32 h-32 mt-auto"
-            />
-          </div>
-
-          <div
-            class="bg-white shadow-lg rounded-lg p-6 text-center md:w-[45%] w-full min-h-[300px] md:ml-4 flex flex-col items-center"
-          >
-            <h3 class="text-xl font-semibold text-gray-800 mb-4">React</h3>
-            <img
-              src="../images/react.png"
-              alt="React"
-              class="w-32 h-32 mt-auto"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="text-center text-white bg-black py-2">
-      <p class="text-lg hover:underline"><a href="#">© Abo Bakar</a></p>
-      <p class="text-sm mt-2">
-        <img src="../images/1.png" class="w-5 h-5 inline" /> +92-313-5369068
+    <section
+      style="background-color: #dff5e1"
+      class="py-20 justify-center font-semibold"
+    >
+      <h1 class="text-center font-serif text-5xl">Contact</h1>
+      <p class="text-center font-serif text-2xl font-normal">Gujrat,Pakistan</p>
+      <p class="text-center font-serif text-2xl font-normal">
+        (+92) 313-5369068
       </p>
-      <p class="text-sm pb-1">✉️ muhammad.abobakar@uog.edu.pk</p>
-    </footer>
+      <p class="text-center font-serif text-2xl font-normal">
+        muhammad.abobakar@uog.edu.pk
+      </p>
+
+      <div class="flex items-center justify-center">
+        <a href="https://github.com/" class="mr-4">
+          <img src="../images/git-removebg-preview.png" style="height: 30px" />
+        </a>
+        <a href="https://www.youtube.com/" class="mr-4">
+          <img
+            src="../images/youtube-removebg-preview.png"
+            style="height: 35px"
+          />
+        </a>
+      </div>
+    </section>
+
+    <section class="text-center flex flex-col items-center bg-gray-900 py-8">
+      <img
+        class="mb-4"
+        src="../images/edu.png"
+        alt="edu2skill logo"
+        style="max-width: 200px; height: auto;" 
+      />
+       <a class="text-white text-2xl" href="index.html">edu2skill.wordpress.com</a>
+    </section>
+
   </body>
 </html>
